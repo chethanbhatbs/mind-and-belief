@@ -1,0 +1,322 @@
+/* =================================================================
+   THE HUMAN MIND & THE ARCHITECTURE OF BELIEF
+   A PROPER BOOK INTERIOR — white leaves on a dark reading surface,
+   running heads, page folios, plates, and editorial asides.
+   ================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+  --surface:  #211e1a;   /* the reading desk — dark warm charcoal */
+  --paper:    #fcfbf7;   /* white page (faintly warm) */
+  --ink:      #1d1813;   /* near-black text */
+  --ink-soft: #564b3c;
+  --ink-faint:#8a7f6b;
+  --rule:     #d3c8b0;   /* hairline rule on paper */
+  --rule-soft:#e6ddc9;
+
+  --gilt:     #8a6a2f;   /* ochre-gold accent */
+  --oxblood:  #7a2e26;   /* deep red accent */
+
+  --t-science:#2f6043;
+  --t-debated:#8a6a2f;
+  --t-myth:   #5e4670;
+  --t-pseudo: #8f5128;
+
+  --measure: 33rem;      /* text measure (book line length) */
+  --page:    44rem;      /* page sheet width */
+
+  --display: 'Cormorant Garamond', Georgia, serif;
+  --body:    'EB Garamond', Georgia, 'Times New Roman', serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 2.6rem 0 3rem;          /* room for fixed running head / foot */
+  background:
+    radial-gradient(120% 90% at 50% 0%, #2b2722 0%, #1b1814 80%);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 20px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- the page sheet ---------- */
+.wrap, .cover, footer.site {
+  max-width: var(--page);
+  margin: 1.1rem auto;
+  background: var(--paper);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3), 0 22px 60px -28px rgba(0,0,0,0.85);
+  position: relative;
+}
+.wrap { padding: 3.2rem 4.2rem 3.6rem; }
+/* faint paper grain on the sheet */
+.wrap::before, .cover::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.5; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+}
+@media (max-width: 720px){ .wrap { padding: 2rem 1.5rem 2.4rem; } }
+
+article, .section { max-width: var(--measure); margin: 0 auto; position: relative; z-index: 1; }
+
+/* ---------- fixed running head & foot (book furniture) ---------- */
+.runhead, .runfoot {
+  position: fixed; left: 0; right: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: space-between;
+  font-family: var(--display); font-variant: small-caps; letter-spacing: 0.16em;
+  font-size: 0.78rem; color: #b6ab94;
+  padding: 0.5rem max(1.5rem, calc((100vw - var(--page))/2 + 0.5rem));
+  background: rgba(20,18,15,0.82); backdrop-filter: blur(3px);
+}
+.runhead { top: 0; border-bottom: 1px solid rgba(180,168,140,0.18); }
+.runfoot { bottom: 0; border-top: 1px solid rgba(180,168,140,0.18); }
+.runhead a, .runfoot a { color: #cdbf9f; border: 0; }
+.runhead a:hover, .runfoot a:hover { color: #fff; }
+.runhead .rh-title { color: #8a8069; }
+.runfoot .folio { color: #cdbf9f; font-variant: normal; letter-spacing: 0.08em; }
+/* legacy nav hidden in favour of running head */
+.topbar, .progress { display: none; }
+
+/* ---------- typography ---------- */
+h1,h2,h3,h4 { font-family: var(--display); font-weight: 600; line-height: 1.14; color: var(--ink); }
+p { margin: 0; text-indent: 1.4em; text-align: justify; hyphens: auto; }
+h1 + p, h2 + p, h3 + p, .lead, .epigraph + p, blockquote + p, figure + p,
+.tier + p, .box + p, .mvr + p, .roundtable + p, .consult + p, .timeline + p,
+hr + p, .scene + p, .gloss + p, .plate + p, .figrow + p { text-indent: 0; }
+
+a { color: var(--oxblood); text-decoration: none; border-bottom: 1px solid rgba(122,46,38,0.3); }
+a:hover { border-bottom-color: var(--oxblood); }
+
+.lead { font-size: 1.14rem; line-height: 1.5; }
+.lead--soft { font-style: italic; color: var(--ink-soft); }
+
+.dropcap::first-letter {
+  font-family: var(--display); font-weight: 700; float: left;
+  font-size: 4.6rem; line-height: 0.7; padding: 0.06em 0.12em 0 0; color: var(--oxblood);
+}
+
+.eyebrow,.vol-tag,.rt-kicker,.c-head,.essence-tag,.box-head,.tier-label,
+.mvr h4,.further h4,.ch-nav .dir,.series-mark,.scroll-cue,.aside-label {
+  font-family: var(--display); font-variant: small-caps; letter-spacing: 0.13em; font-weight: 600;
+}
+
+hr.rule { border: 0; border-top: 1px solid var(--rule); width: 38%; margin: 2.6rem auto; }
+.ornament { text-align: center; color: var(--gilt); letter-spacing: 0.55em; margin: 2.2rem 0; font-size: 1rem; }
+.scene { font-family: var(--display); font-style: italic; color: var(--gilt); font-size: 1.08rem; text-align: center; margin: 2.2rem 0 0.3rem; text-indent: 0; }
+.note { font-size: 0.92rem; color: var(--ink-soft); font-style: italic; }
+sup.cite { font-size: 0.6rem; color: var(--oxblood); font-weight: 600; vertical-align: super; }
+.term { border-bottom: 1px dotted var(--gilt); }
+.gloss { margin: 1.3rem 0; padding: 0.3rem 1.1rem; border-left: 2px solid var(--rule); font-style: italic; color: var(--ink-soft); font-size: 0.97rem; text-indent: 0; text-align: left; }
+.gloss b { color: var(--oxblood); font-style: normal; }
+
+/* =================================================================
+   TITLE PAGE / COVER  (a white leaf)
+   ================================================================= */
+.cover { padding: 7vh 3.5rem; min-height: 86vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.cover .series-mark { font-size: 0.95rem; color: var(--gilt); margin-bottom: 2.4rem; }
+.cover .glyph { font-size: 2rem; color: var(--gilt); margin-bottom: 1.4rem; }
+.cover h1 { font-size: clamp(2.4rem,6.5vw,4.6rem); margin: 0; font-weight: 700; line-height: 1.04; }
+.cover .subtitle { font-family: var(--display); font-style: italic; font-size: clamp(1.05rem,2.4vw,1.6rem); color: var(--ink-soft); margin-top: 1rem; }
+.cover .deck { max-width: 32rem; margin: 2rem auto 0; color: var(--ink-soft); font-size: 1.02rem; text-indent: 0; text-align: center; }
+.cover .scroll-cue { margin-top: 2.6rem; font-size: 0.8rem; color: var(--ink-faint); }
+
+/* section headers (front matter) */
+.section { padding: 2.6rem 0 1rem; }
+.section-head { text-align: center; margin-bottom: 2.4rem; }
+.section-head .eyebrow { color: var(--gilt); }
+.section-head h2 { font-size: clamp(1.7rem,4vw,2.4rem); margin: 0.4rem 0 0; border: 0; }
+.section-head h2::before,.section-head h2::after { content: "\2767"; color: var(--gilt); font-size: 0.7em; margin: 0 0.5em; vertical-align: 0.12em; }
+.section-head p { color: var(--ink-soft); max-width: 32rem; margin: 0.8rem auto 0; text-indent: 0; text-align: center; }
+
+/* table of contents listing */
+.volumes { display: block; }
+.vol { display: grid; grid-template-columns: 3rem 1fr; gap: 1.3rem; padding: 1.4rem 0; border-bottom: 1px solid var(--rule-soft); }
+.vol:first-child { border-top: 1px solid var(--rule-soft); }
+.vol .num { font-family: var(--display); font-weight: 600; font-size: 2.2rem; line-height: 1; color: var(--gilt); text-align: center; }
+.vol .num small { display: block; font-family: var(--display); font-variant: small-caps; font-size: 0.58rem; letter-spacing: 0.16em; color: var(--ink-faint); margin-top: 0.4rem; }
+.vol h3 { font-size: 1.45rem; margin: 0 0 0.15rem; } .vol h3 a { color: inherit; border: 0; }
+.vol .vol-sub { font-family: var(--display); font-style: italic; color: var(--gilt); font-size: 1.02rem; margin-bottom: 0.5rem; }
+.vol .vol-desc { color: var(--ink-soft); font-size: 0.96rem; margin-bottom: 0.6rem; text-indent: 0; text-align: left; }
+.vol .chapters { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 1.8rem; font-size: 0.9rem; color: var(--ink-soft); }
+.vol .chapters li { break-inside: avoid; padding: 0.16rem 0 0.16rem 0.9rem; position: relative; }
+.vol .chapters li::before { content: "\00B7"; position: absolute; left: 0.15rem; color: var(--gilt); }
+.vol .chapters li.sample { color: var(--oxblood); font-style: italic; }
+@media (max-width: 640px){ .vol .chapters { columns: 1; } }
+
+/* =================================================================
+   CHAPTER OPENER
+   ================================================================= */
+.chapter-hero { text-align: center; padding: 1rem 0 1.6rem; margin-bottom: 1.6rem; border-bottom: 1px solid var(--rule); }
+.chapter-hero .vol-tag { color: var(--gilt); font-size: 0.85rem; }
+.chapter-hero .ch-no { font-family: var(--display); font-style: italic; color: var(--ink-faint); font-size: 1.2rem; margin: 1rem 0 0.1rem; }
+.chapter-hero h1 { font-size: clamp(2.1rem,5vw,3.4rem); margin: 0.2rem 0; font-weight: 700; }
+.chapter-hero .ch-deck { font-family: var(--display); font-style: italic; color: var(--ink-soft); font-size: 1.15rem; max-width: 30rem; margin: 0.9rem auto 0; text-indent: 0; }
+
+article h2 { font-size: 1.6rem; margin: 2.6rem 0 0.5rem; text-align: center; }
+article h2 .kicker { display: block; font-family: var(--display); font-variant: small-caps; font-size: 0.76rem; letter-spacing: 0.2em; color: var(--gilt); margin-bottom: 0.3rem; font-weight: 600; }
+article h3 { font-size: 1.24rem; margin: 1.8rem 0 0.3rem; font-style: italic; font-weight: 600; }
+
+blockquote.pull { margin: 2.2rem auto; padding: 0 1rem; max-width: 30rem; text-align: center; font-family: var(--display); font-style: italic; font-size: 1.45rem; line-height: 1.32; color: var(--ink); border: 0; }
+blockquote.pull::before { content: "\2756"; display: block; color: var(--gilt); font-size: 0.85rem; margin-bottom: 0.6rem; font-style: normal; }
+blockquote.pull footer { font-family: var(--display); font-variant: small-caps; font-style: normal; font-size: 0.82rem; letter-spacing: 0.08em; color: var(--ink-faint); margin-top: 0.6rem; }
+blockquote.pull footer::before { content: "\2014\2009"; }
+
+/* =================================================================
+   EVIDENCE ASIDES  (NOT cards — scholarly insets, rules + small-caps label)
+   ================================================================= */
+.tier { margin: 1.9rem 1.4rem; padding: 0.9rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.tier p { text-indent: 0; font-size: 0.99rem; }
+.tier .tier-label { font-size: 0.78rem; letter-spacing: 0.15em; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.45rem; }
+.tier .tier-label .dot { width: 7px; height: 7px; border-radius: 50%; }
+.tier--science .tier-label { color: var(--t-science); } .tier--science .dot { background: var(--t-science); }
+.tier--debated .tier-label { color: var(--t-debated); } .tier--debated .dot { background: var(--t-debated); }
+.tier--myth    .tier-label { color: var(--t-myth); }    .tier--myth .dot { background: var(--t-myth); }
+.tier--pseudo  .tier-label { color: var(--t-pseudo); }  .tier--pseudo .dot { background: var(--t-pseudo); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.3rem; justify-content: center; margin: 1.4rem 0; font-family: var(--display); font-variant: small-caps; letter-spacing: 0.05em; font-size: 0.88rem; }
+.legend span { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--ink-soft); }
+.legend i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* =================================================================
+   EDITORIAL FEATURE BOXES (Did You Know / Case File / Experiment / Try It)
+   keyline frame, centered small-caps header — printed-book style
+   ================================================================= */
+.box { margin: 2rem 0; border: 1px solid var(--ink-faint); background: var(--paper); }
+.box .box-head { font-size: 0.8rem; letter-spacing: 0.16em; text-align: center; padding: 0.6rem 1rem 0.5rem; border-bottom: 1px solid var(--rule); color: var(--gilt); }
+.box .box-body { padding: 1rem 1.3rem; font-size: 0.99rem; }
+.box .box-body p { text-indent: 0; } .box .box-body p + p { text-indent: 1.4em; }
+.box--case .box-head { color: var(--oxblood); }
+.box--exp  .box-head { color: var(--t-science); }
+.box--try  .box-head { color: var(--t-myth); }
+
+/* myth vs reality */
+.mvr { display: grid; grid-template-columns: 1fr 1fr; margin: 2rem 0; border: 1px solid var(--ink-faint); }
+.mvr > div { padding: 1rem 1.2rem; font-size: 0.97rem; }
+.mvr .myth { border-right: 1px solid var(--rule); }
+.mvr h4 { font-size: 0.76rem; letter-spacing: 0.15em; margin: 0 0 0.5rem; text-align: center; }
+.mvr .myth h4 { color: var(--t-myth); } .mvr .reality h4 { color: var(--t-science); }
+.mvr p { text-indent: 0; }
+@media (max-width: 600px){ .mvr { grid-template-columns: 1fr; } .mvr .myth { border-right: 0; border-bottom: 1px solid var(--rule);} }
+
+/* timeline */
+.timeline { list-style: none; padding: 0; margin: 1.8rem 0 1.8rem 0.5rem; border-left: 2px solid var(--rule); }
+.timeline li { position: relative; padding: 0 0 1.1rem 1.5rem; }
+.timeline li::before { content: ""; position: absolute; left: -7px; top: 8px; width: 11px; height: 11px; border-radius: 50%; background: var(--paper); border: 2px solid var(--gilt); }
+.timeline .yr { font-family: var(--display); font-variant: small-caps; font-weight: 600; letter-spacing: 0.05em; color: var(--oxblood); display: block; }
+.timeline .ev { color: var(--ink-soft); font-size: 0.96rem; }
+
+/* =================================================================
+   FIGURES / PLATES — images placed like a printed book
+   ================================================================= */
+figure { margin: 2.2rem auto; }
+figure svg { width: 100%; height: auto; display: block; }
+figcaption { font-style: italic; font-size: 0.88rem; color: var(--ink-soft); text-align: center; margin-top: 0.55rem; line-height: 1.45; }
+figcaption b { font-style: normal; font-variant: small-caps; color: var(--ink); }
+
+/* image plate: full text-width, thin keyline mat, caption below */
+figure.plate-img { margin: 2.4rem 0; }
+figure.plate-img img { width: 100%; display: block; border: 1px solid var(--rule); padding: 6px; background: #fff; }
+figure.plate-img figcaption { margin-top: 0.6rem; }
+figure.plate-img .credit { display: block; color: var(--ink-faint); font-size: 0.74rem; margin-top: 0.2rem; }
+
+/* a wide plate that breaks out beyond the text measure toward the page margins */
+figure.bleed { width: calc(var(--page) - 8.4rem); max-width: none; margin-left: 50%; transform: translateX(-50%); }
+@media (max-width: 720px){ figure.bleed { width: 100%; } }
+
+/* chapter-opener frontispiece plate */
+figure.frontispiece { margin: 0 0 1.8rem; }
+figure.frontispiece img { width: 100%; display: block; border: 1px solid var(--rule); padding: 6px; background:#fff; filter: sepia(0.06); }
+
+/* line-diagram panel (ink on paper) */
+.plate, .diagram-frame { background: var(--paper); border: 1px solid var(--rule); padding: 1.2rem; }
+.plate svg { background: transparent; }
+.plate .plate-cap { font-style: italic; font-size: 0.88rem; color: var(--ink-soft); padding-top: 0.8rem; margin-top: 0.8rem; border-top: 1px solid var(--rule); }
+.plate .plate-cap b { font-style: normal; font-variant: small-caps; color: var(--ink); }
+.plate .credit { color: var(--ink-faint); font-style: italic; }
+.plate--dark { background: #100e0b; border-color: #2a241c; }
+.plate--dark .plate-cap { color: #b6ab94; border-top-color: #2a241c; }
+.plate--dark .plate-cap b { color: #e7dcc4; }
+
+/* floated portrait/figure */
+figure.portrait { float: right; width: 12.5rem; margin: 0.3rem 0 1rem 1.5rem; }
+figure.portrait img { width: 100%; display: block; border: 1px solid var(--rule); padding: 5px; background:#fff; filter: sepia(0.12); }
+figure.portrait figcaption, figure.portrait .cap { font-size: 0.76rem; color: var(--ink-soft); padding-top: 0.4rem; font-style: italic; text-align: left; }
+figure.portrait .cap b { display: block; font-style: normal; font-variant: small-caps; color: var(--ink); margin-bottom: 0.15rem; }
+figure.portrait .credit { color: var(--ink-faint); font-size: 0.68rem; }
+figure.portrait.left { float: left; margin: 0.3rem 1.5rem 1rem 0; }
+@media (max-width: 560px){ figure.portrait { float: none; width: 100%; margin: 1.4rem 0; } }
+
+/* legacy photo/cap support */
+figure.photo img { width: 100%; display: block; border: 1px solid var(--rule); padding: 6px; background:#fff; filter: sepia(0.1); }
+figure.photo .cap { font-size: 0.86rem; color: var(--ink-soft); padding-top: 0.5rem; font-style: italic; text-align: center; }
+figure.photo .cap b { font-style: normal; font-variant: small-caps; color: var(--ink); }
+figure.photo .credit { display: block; color: var(--ink-faint); font-size: 0.72rem; margin-top: 0.2rem; }
+
+/* two-up image row */
+.figrow { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2.2rem 0; }
+.figrow figure { margin: 0; }
+@media (max-width: 560px){ .figrow { grid-template-columns: 1fr; } }
+
+/* =================================================================
+   THE COUNCIL
+   ================================================================= */
+.epigraph { font-family: var(--display); font-style: italic; font-size: 1.28rem; line-height: 1.42; color: var(--ink-soft); text-align: center; max-width: 28rem; margin: 0 auto 2.2rem; text-indent: 0; }
+.epigraph cite { display: block; font-variant: small-caps; font-style: normal; font-size: 0.8rem; letter-spacing: 0.1em; color: var(--ink-faint); margin-top: 0.7rem; }
+
+.roundtable { margin: 2.6rem 0; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: 1.4rem 0; }
+.roundtable .rt-head { text-align: center; padding: 0 1rem 0.5rem; }
+.roundtable .rt-kicker { color: var(--gilt); }
+.roundtable .rt-head h4 { font-family: var(--display); font-style: italic; font-weight: 600; font-size: 1.45rem; margin: 0.4rem 0 0.3rem; }
+.roundtable .rt-head .rt-q { color: var(--ink-soft); font-size: 0.94rem; max-width: 28rem; margin: 0.3rem auto 0; text-indent: 0; text-align: center; font-style: italic; }
+.roundtable .rt-body { padding: 0.5rem 0; }
+.voice { display: grid; grid-template-columns: 10rem 1fr; gap: 1.1rem; padding: 0.9rem 0; border-top: 1px solid var(--rule-soft); }
+.voice:first-child { border-top: 0; }
+.voice .who .role { display: block; font-family: var(--display); font-variant: small-caps; font-weight: 600; letter-spacing: 0.06em; color: var(--oxblood); font-size: 1.02rem; }
+.voice .who .lens { display: block; font-style: italic; font-size: 0.8rem; color: var(--ink-faint); margin-top: 0.1rem; }
+.voice .says { font-size: 0.99rem; } .voice .says p { text-indent: 0; }
+.roundtable .rt-foot { padding-top: 0.9rem; border-top: 1px solid var(--rule); margin-top: 0.4rem; font-family: var(--display); font-style: italic; color: var(--gilt); font-size: 1.08rem; text-align: center; }
+@media (max-width: 600px){ .voice { grid-template-columns: 1fr; gap: 0.25rem; } }
+
+.consult { margin: 2.2rem 0; border: 1px solid var(--ink-faint); padding: 1.1rem 1.3rem; background: var(--paper); }
+.consult .c-head { color: var(--oxblood); font-size: 0.78rem; letter-spacing: 0.15em; text-align: center; border-bottom: 1px solid var(--rule); padding-bottom: 0.5rem; margin-bottom: 0.8rem; }
+.consult .c-body { font-size: 1.0rem; } .consult .c-body p { text-indent: 0; } .consult .c-body p + p { text-indent: 1.4em; }
+.consult .c-attr { font-style: italic; font-size: 0.84rem; color: var(--ink-faint); margin-top: 0.5rem; text-indent: 0; }
+
+/* =================================================================
+   THE ESSENCE
+   ================================================================= */
+.essence { margin: 2.8rem 0 2rem; border-top: 3px double var(--ink); border-bottom: 3px double var(--ink); padding: 1.6rem 1.2rem; }
+.essence .essence-tag { color: var(--gilt); text-align: center; display: block; margin-bottom: 0.6rem; }
+.essence h3 { font-family: var(--display); font-style: italic; font-size: 1.45rem; text-align: center; margin: 0 0 1.1rem; font-weight: 600; }
+.essence ul { list-style: none; padding: 0; margin: 0; }
+.essence li { position: relative; padding: 0.45rem 0 0.45rem 1.5rem; border-bottom: 1px solid var(--rule-soft); color: var(--ink-soft); }
+.essence li:last-child { border-bottom: 0; }
+.essence li::before { content: "\2756"; position: absolute; left: 0; color: var(--gilt); }
+.essence li b { color: var(--ink); }
+.essence .leave-with { margin-top: 1.1rem; font-family: var(--display); font-style: italic; font-size: 1.2rem; line-height: 1.38; color: var(--oxblood); text-align: center; text-indent: 0; }
+
+/* =================================================================
+   REFERENCES / FURTHER / NAV / FOOTER
+   ================================================================= */
+.refs { font-size: 0.9rem; color: var(--ink-soft); }
+.refs ol { padding-left: 1.3rem; } .refs li { margin-bottom: 0.55rem; text-align: left; }
+.refs .tagref { font-family: var(--display); font-variant: small-caps; font-size: 0.68rem; letter-spacing: 0.1em; padding: 0.04rem 0.4rem; border: 1px solid var(--rule); color: var(--ink-faint); margin-right: 0.45rem; }
+.further { display: grid; grid-template-columns: 1fr 1fr; gap: 1.3rem; margin: 1.3rem 0; }
+.further h4 { font-size: 0.8rem; letter-spacing: 0.14em; color: var(--gilt); margin: 0 0 0.5rem; }
+.further ul { margin: 0; padding-left: 1.1rem; font-size: 0.92rem; color: var(--ink-soft); } .further li { margin-bottom: 0.32rem; }
+@media (max-width: 600px){ .further { grid-template-columns: 1fr; } }
+
+.ch-nav { display: flex; justify-content: space-between; gap: 1.3rem; margin: 2.8rem 0 1.5rem; }
+.ch-nav a { flex: 1; border: 1px solid var(--rule); padding: 0.85rem 1rem; background: var(--paper); color: var(--ink); }
+.ch-nav a:hover { border-color: var(--gilt); }
+.ch-nav .dir { font-size: 0.68rem; letter-spacing: 0.16em; color: var(--ink-faint); display: block; margin-bottom: 0.25rem; }
+.ch-nav .ttl { font-family: var(--display); font-style: italic; color: var(--oxblood); font-size: 1.05rem; }
+.ch-nav .next { text-align: right; }
+
+footer.site { text-align: center; padding: 2.2rem 3.5rem 3rem; color: var(--ink-faint); font-size: 0.84rem; }
+footer.site .disc { max-width: 32rem; margin: 0 auto 1rem; line-height: 1.5; font-style: italic; text-indent: 0; text-align: center; }
