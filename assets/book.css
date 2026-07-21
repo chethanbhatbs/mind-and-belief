@@ -319,3 +319,25 @@ figure.photo .credit { display: block; color: var(--ink-faint); font-size: 0.72r
 
 footer.site { text-align: center; padding: 2.2rem 3.5rem 3rem; color: var(--ink-faint); font-size: 0.84rem; }
 footer.site .disc { max-width: 32rem; margin: 0 auto 1rem; line-height: 1.5; font-style: italic; text-indent: 0; text-align: center; }
+
+/* =================================================================
+   PRINT — the same book interior as a clean paper page.
+   Screen-only furniture (dark desk, fixed running head/foot, chapter
+   nav) is removed; blocks that read as units stay unbroken.
+   ================================================================= */
+@media print {
+  html, body { background: #fff; padding: 0; }
+  .runhead, .runfoot, .ch-nav, .topbar, .scroll-cue, .ornament { display: none !important; }
+  .wrap, .cover, footer.site {
+    max-width: none; margin: 0; box-shadow: none; background: #fff;
+  }
+  .wrap { padding: 0; }
+  .wrap::before, .cover::before { display: none; }
+  .cover { min-height: 0; padding: 4rem 0 2.5rem; page-break-after: always; }
+  figure, .plate, .tier, .mvr, .roundtable, .consult, .box,
+  .timeline, .epigraph, .essence, .legend, .voice, .figrow { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+  .refs li, .further li { break-inside: avoid; }
+  a { color: inherit; }
+  @page { margin: 17mm 15mm; }
+}

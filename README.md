@@ -20,13 +20,13 @@ The series moves in expanding rings - from the solitary thinking brain, to the f
 
 | | Volume | Subject | State |
 |---|---|---|---|
-| **I** | **The Thinking Animal** | Perception · cognition · biases · memory · attention · decision · habit · intelligence · consciousness · free will | **8 of 10 chapters drafted** |
+| **I** | **[The Thinking Animal](https://chethanbhatbs.github.io/mind-and-belief/volume-1.html)** | Perception · cognition · biases · memory · attention · decision · habit · intelligence · consciousness · free will | **8 of 10 chapters drafted** |
 | II | The Feeling Brain | Emotion · fear · attraction · trauma · addiction | Planned |
 | III | The Social Animal | Influence · body language · dark psychology · crowds | Planned |
 | IV | The Wounded Mind | Mental illness · the history of psychiatry · treatment | Planned |
 | V | The Hidden Mind | Freud · Jung · the unconscious · dreams · archetype | Planned |
 | VI | The Believing Mind | Why we believe · ritual · morality · death · cult · myth | Planned |
-| **VII** | **Gods, Demons & the Edge of Reason** | Spirits · mediums · witches · astrology · pseudoscience · god · conspiracy · the honest investigation | **9 of 10 chapters drafted** |
+| **VII** | **[Gods, Demons & the Edge of Reason](https://chethanbhatbs.github.io/mind-and-belief/volume-7.html)** | Spirits · mediums · witches · astrology · pseudoscience · god · conspiracy · the honest investigation | **9 of 10 chapters drafted** |
 
 ---
 
@@ -34,18 +34,18 @@ The series moves in expanding rings - from the solitary thinking brain, to the f
 
 The flagship effort: a progressive treatment of how the mind builds a world, makes its typical mistakes, remembers, attends, decides, and chooses. Each chapter stands on the one before it; read in order.
 
-| | Chapter | Words | View HTML |
-|---|---|---:|---|
-| <img src="assets/img/ch1/bruegel-blind.jpg" width="80"/> | **1 - The World You Cannot Reach** *(perception · controlled hallucination · therapy as updating the guess)* | ~5,500 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch01-predicting-brain.html) |
-| <img src="assets/img/kahneman.jpg" width="80"/> | **2 - Two Minds in One Head** *(System 1 / System 2 · biases · loss aversion · framing · the gut-trust grapple)* | ~5,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch02-two-minds.html) |
-| <img src="assets/img/ch3/tulip-mania.jpg" width="80"/> | **3 - The Catalogue of Beautiful Mistakes** *(confirmation · availability · hindsight · sunk cost · conformity · ecological rationality)* | ~5,400 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch03-catalogue.html) |
-| <img src="assets/img/ch4/mnemosyne.jpg" width="80"/> | **4 - The Story We Rewrite Each Night** *(Ebbinghaus · H.M. · Loftus · reconsolidation · the trauma payoff)* | ~4,300 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch04-memory.html) |
-| <img src="assets/img/ch5/vermeer-astronomer.jpg" width="80"/> | **5 - The Spotlight and the Dark** *(the invisible gorilla · William James · the attention economy · deep work · ADHD)* | ~4,900 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch05-attention.html) |
-| <img src="assets/img/ch6/caravaggio-cardsharps.jpg" width="80"/> | **6 - How We Decide** *(Damasio · Bernoulli · hyperbolic discounting · somatic markers · regret · trolleys)* | ~4,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch06-how-we-decide.html) |
-| <img src="assets/img/ch7/caillebotte-scrapers.jpg" width="80"/> | **7 - The Automatic Self** *(habit · Graybiel's basal ganglia · cue-routine-reward · addiction as habit hijacked)* | ~5,100 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch07-automatic-self.html) |
-| <img src="assets/img/ch8/raphael-school-of-athens.jpg" width="80"/> | **8 - Cleverness and Its Myths** *(IQ · Spearman's g · the Flynn effect · Binet vs Terman · the eugenic record)* | ~5,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch08-cleverness.html) |
-| - | 9 - The Hard Problem *(why there is something it is like to be you)* | - | *Planned* |
-| - | 10 - Who Is Driving? *(free will and the illusion of the author)* | - | *Planned* |
+| | Chapter | Words | Read | PDF |
+|---|---|---:|---|---|
+| <img src="assets/img/ch1/bruegel-blind.jpg" width="80"/> | **1 - The World You Cannot Reach** *(perception · controlled hallucination · therapy as updating the guess)* | ~5,500 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch01-predicting-brain.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch01-The-World-You-Cannot-Reach.pdf) *(23 pp)* |
+| <img src="assets/img/kahneman.jpg" width="80"/> | **2 - Two Minds in One Head** *(System 1 / System 2 · biases · loss aversion · framing · the gut-trust grapple)* | ~5,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch02-two-minds.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch02-Two-Minds-in-One-Head.pdf) *(22 pp)* |
+| <img src="assets/img/ch3/tulip-mania.jpg" width="80"/> | **3 - The Catalogue of Beautiful Mistakes** *(confirmation · availability · hindsight · sunk cost · conformity · ecological rationality)* | ~5,400 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch03-catalogue.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch03-The-Catalogue-of-Beautiful-Mistakes.pdf) *(23 pp)* |
+| <img src="assets/img/ch4/mnemosyne.jpg" width="80"/> | **4 - The Story We Rewrite Each Night** *(Ebbinghaus · H.M. · Loftus · reconsolidation · the trauma payoff)* | ~4,300 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch04-memory.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch04-The-Story-We-Rewrite-Each-Night.pdf) *(19 pp)* |
+| <img src="assets/img/ch5/vermeer-astronomer.jpg" width="80"/> | **5 - The Spotlight and the Dark** *(the invisible gorilla · William James · the attention economy · deep work · ADHD)* | ~4,900 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch05-attention.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch05-The-Spotlight-and-the-Dark.pdf) *(21 pp)* |
+| <img src="assets/img/ch6/caravaggio-cardsharps.jpg" width="80"/> | **6 - How We Decide** *(Damasio · Bernoulli · hyperbolic discounting · somatic markers · regret · trolleys)* | ~4,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch06-how-we-decide.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch06-How-We-Decide.pdf) *(19 pp)* |
+| <img src="assets/img/ch7/caillebotte-scrapers.jpg" width="80"/> | **7 - The Automatic Self** *(habit · Graybiel's basal ganglia · cue-routine-reward · addiction as habit hijacked)* | ~5,100 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch07-automatic-self.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch07-The-Automatic-Self.pdf) *(19 pp)* |
+| <img src="assets/img/ch8/raphael-school-of-athens.jpg" width="80"/> | **8 - Cleverness and Its Myths** *(IQ · Spearman's g · the Flynn effect · Binet vs Terman · the eugenic record)* | ~5,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v1-ch08-cleverness.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V1-Ch08-Cleverness-and-Its-Myths.pdf) *(22 pp)* |
+| - | 9 - The Hard Problem *(why there is something it is like to be you)* | - | *Planned* | - |
+| - | 10 - Who Is Driving? *(free will and the illusion of the author)* | - | *Planned* | - |
 
 ---
 
@@ -53,32 +53,47 @@ The flagship effort: a progressive treatment of how the mind builds a world, mak
 
 Where the mind meets darkness and the unexplained - spirits, ghosts, mediums, witches, astrology, energy healing, god, and the conspiratorial mind - held to the same honest light. Nine of ten chapters drafted; the full contents page is at [`volume-7.html`](https://chethanbhatbs.github.io/mind-and-belief/volume-7.html).
 
-| | Chapter | Words | View HTML |
-|---|---|---:|---|
-| <img src="assets/img/vii-hadd/face-on-mars.jpg" width="80"/> | **1 - Why We See What Isn't There** *(the hyperactive agency detector - the universal foundation under every other belief in this volume)* | ~5,100 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch01-why-we-see.html) |
-| <img src="assets/img/possession/goya-sabbath.jpg" width="80"/> | **2 - The Possessed** *(demons, exorcism, the Salpêtrière reinterpretation; Anneliese Michel; possession as idiom of distress)* | ~3,000 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch02-possessed.html) |
-| <img src="assets/img/vii-ghosts/mumler-mary-lincoln.jpg" width="80"/> | **3 - The Ghost in the Plate** *(spirit photography, Fox sisters, Mumler, D. D. Home, Eusapia Palladino, Houdini; pareidolia, sleep paralysis, ideomotor, cold reading; the honest remainder)* | ~5,400 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch03-ghost-in-the-plate.html) |
-| - | 4 - The Mediums *(deeper - cold reading, trance, modern television heirs)* | - | *Planned* |
-| <img src="assets/img/vii-witches/matteson-salem.jpg" width="80"/> | **5 - Witches and the Black Art** *(Malleus to Salem to the modern outbreaks; Kepari Leniata; panics end when procedures change)* | ~5,600 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch05-witches.html) |
-| <img src="assets/img/vii-stars/zodiac-man.jpg" width="80"/> | **6 - The Stars and the Hand** *(astrology, palmistry, the Forer/Barnum effect; Carlson's double-blind test)* | ~5,100 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch06-stars-and-hand.html) |
-| <img src="assets/img/vii-pseudo/phrenology-chart.jpg" width="80"/> | **7 - The Pseudoscience Museum** *(phrenology to energy healing; placebo and nocebo; the Franklin commission's pattern)* | ~5,800 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch07-pseudoscience-museum.html) |
-| <img src="assets/img/vii-god/bernini-teresa.jpg" width="80"/> | **8 - God and the Mystic Brain** *(neurotheology, temporal-lobe mysticism, near-death, psychedelics, the limits of science)* | ~5,800 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch08-god-and-mystic-brain.html) |
-| <img src="assets/img/vii-conspiracy/goya-sleep-of-reason.jpg" width="80"/> | **9 - The Conspiratorial Mind** *(modern paranormal belief, hidden-agent thinking; Pizzagate, QAnon, the six mechanisms)* | ~5,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch09-conspiratorial-mind.html) |
-| <img src="assets/img/vii-honest/friedrich-wanderer.jpg" width="80"/> | **10 - The Honest Investigation** *(what science can and cannot answer; the honest remainder)* | ~4,500 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch10-honest-investigation.html) |
+| | Chapter | Words | Read | PDF |
+|---|---|---:|---|---|
+| <img src="assets/img/vii-hadd/face-on-mars.jpg" width="80"/> | **1 - Why We See What Isn't There** *(the hyperactive agency detector - the universal foundation under every other belief in this volume)* | ~5,100 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch01-why-we-see.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch01-Why-We-See-What-Isnt-There.pdf) *(23 pp)* |
+| <img src="assets/img/possession/goya-sabbath.jpg" width="80"/> | **2 - The Possessed** *(demons, exorcism, the Salpêtrière reinterpretation; Anneliese Michel; possession as idiom of distress)* | ~3,000 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch02-possessed.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch02-The-Possessed.pdf) *(17 pp)* |
+| <img src="assets/img/vii-ghosts/mumler-mary-lincoln.jpg" width="80"/> | **3 - The Ghost in the Plate** *(spirit photography, Fox sisters, Mumler, D. D. Home, Eusapia Palladino, Houdini; pareidolia, sleep paralysis, ideomotor, cold reading; the honest remainder)* | ~5,400 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch03-ghost-in-the-plate.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch03-The-Ghost-in-the-Plate.pdf) *(23 pp)* |
+| - | 4 - The Mediums *(deeper - cold reading, trance, modern television heirs)* | - | *Planned* | - |
+| <img src="assets/img/vii-witches/matteson-salem.jpg" width="80"/> | **5 - Witches and the Black Art** *(Malleus to Salem to the modern outbreaks; Kepari Leniata; panics end when procedures change)* | ~5,600 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch05-witches.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch05-Witches-and-the-Black-Art.pdf) *(24 pp)* |
+| <img src="assets/img/vii-stars/zodiac-man.jpg" width="80"/> | **6 - The Stars and the Hand** *(astrology, palmistry, the Forer/Barnum effect; Carlson's double-blind test)* | ~5,100 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch06-stars-and-hand.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch06-The-Stars-and-the-Hand.pdf) *(22 pp)* |
+| <img src="assets/img/vii-pseudo/phrenology-chart.jpg" width="80"/> | **7 - The Pseudoscience Museum** *(phrenology to energy healing; placebo and nocebo; the Franklin commission's pattern)* | ~5,800 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch07-pseudoscience-museum.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch07-The-Pseudoscience-Museum.pdf) *(26 pp)* |
+| <img src="assets/img/vii-god/bernini-teresa.jpg" width="80"/> | **8 - God and the Mystic Brain** *(neurotheology, temporal-lobe mysticism, near-death, psychedelics, the limits of science)* | ~5,800 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch08-god-and-mystic-brain.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch08-God-and-the-Mystic-Brain.pdf) *(28 pp)* |
+| <img src="assets/img/vii-conspiracy/goya-sleep-of-reason.jpg" width="80"/> | **9 - The Conspiratorial Mind** *(modern paranormal belief, hidden-agent thinking; Pizzagate, QAnon, the six mechanisms)* | ~5,700 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch09-conspiratorial-mind.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch09-The-Conspiratorial-Mind.pdf) *(25 pp)* |
+| <img src="assets/img/vii-honest/friedrich-wanderer.jpg" width="80"/> | **10 - The Honest Investigation** *(what science can and cannot answer; the honest remainder)* | ~4,500 | [Open](https://chethanbhatbs.github.io/mind-and-belief/chapters/v7-ch10-honest-investigation.html) | [PDF](https://chethanbhatbs.github.io/mind-and-belief/pdf/V7-Ch10-The-Honest-Investigation.pdf) *(21 pp)* |
 
 ---
 
-## How to read
+## How to read (three options)
 
-**Online (the best experience).** The series is live at **[chethanbhatbs.github.io/mind-and-belief](https://chethanbhatbs.github.io/mind-and-belief/)**, served by GitHub Pages from this repo's `main` branch - every push redeploys it automatically. All the **Open** links in the tables above point at the rendered pages. The chapters reflow for phone screens - the running head, the folio footer, the asides, and the page sheet all collapse cleanly - so the same links work on mobile.
+### 1 · In your browser
+Click any **Open** link in the tables above - it opens the rendered chapter straight from [chethanbhatbs.github.io/mind-and-belief](https://chethanbhatbs.github.io/mind-and-belief/). No login, no download required. Start at the [landing page](https://chethanbhatbs.github.io/mind-and-belief/) or a volume contents page ([Volume I](https://chethanbhatbs.github.io/mind-and-belief/volume-1.html) · [Volume VII](https://chethanbhatbs.github.io/mind-and-belief/volume-7.html)); every chapter links its previous and next neighbour, so the whole volume reads in sequence.
 
-**Offline.** Clone the repo and open `index.html` or any `chapters/*.html` in a browser. The shared stylesheet (`assets/book.css`), the folio script (`assets/book.js`), and all artwork resolve via relative paths; the only runtime fetch is the two Garamond families from Google Fonts, and the pages fall back to system serifs without a connection. Clone the whole repo - a single chapter file saved in isolation loses its stylesheet and its art.
+### 2 · As a PDF (print or offline)
+Click any **PDF** link. Every drafted chapter has a print edition in [`pdf/`](pdf/) - the same book interior rendered as clean paper pages (frontispiece, drop caps, asides, Round Table, references), with the screen furniture removed. They open in any PDF reader, on any device.
+
+### 3 · Offline, from a clone
+Clone the repo and open `index.html` or any `chapters/*.html` in a browser. The shared stylesheet (`assets/book.css`), the folio script (`assets/book.js`), and all artwork resolve via relative paths; the only runtime fetch is the two Garamond families from Google Fonts, and the pages fall back to system serifs without a connection. Clone the whole repo - a single chapter file saved in isolation loses its stylesheet and its art. The chapters also reflow for phone screens.
+
+---
+
+## Hosting
+
+The site is live at **[chethanbhatbs.github.io/mind-and-belief](https://chethanbhatbs.github.io/mind-and-belief/)** (served via GitHub Pages from the repo root; PDFs preview inline). Every `git push` to `main` auto-redeploys. If GitHub Pages is ever unavailable, the same files render via:
+
+- **htmlpreview.github.io** - `https://htmlpreview.github.io/?https://github.com/chethanbhatbs/mind-and-belief/blob/main/chapters/v1-ch01-predicting-brain.html`
+- **raw.githack.com** - `https://raw.githack.com/chethanbhatbs/mind-and-belief/main/chapters/v1-ch01-predicting-brain.html`
+- **Cloudflare Pages / Netlify** - connect the repo, build command blank, publish directory the repo root.
 
 ---
 
 ## Design
 
-A printed-book interior, not a webpage. White paper-sheet on a dark reading desk; **Cormorant Garamond** for display, **EB Garamond** for body, justified text with first-line indents and drop caps; a fixed **running head** at the top of every chapter (book title left, chapter title right) and a fixed **page-number folio** at the bottom (volume left, live `p. X / Y` right, computed from scroll position). A single ochre-gold accent (`#8A6A2F`) and a deep oxblood (`#7A2E26`); no drop-shadows, no rounded corners, no gradients. Evidence is **never** presented as a colored-edge web card - it lives in *scholarly asides* (a small-caps coloured label between thin rules) and in *editorial feature boxes* (a clean keyline frame with a centered small-caps header). Two recurring devices structure each chapter: **The Round Table**, in which six named voices - the Neuroscientist, the Clinician, the Analyst, the Philosopher, the Skeptic, the Existentialist - speak in turn to a single question; and **From the Consulting Room**, a Sacks-style clinical vignette set in a thin oxblood frame.
+A printed-book interior, not a webpage. White paper-sheet on a dark reading desk; **Cormorant Garamond** for display, **EB Garamond** for body, justified text with first-line indents and drop caps; a fixed **running head** at the top of every chapter (book title left, chapter title right) and a fixed **page-number folio** at the bottom (volume left, live `p. X / Y` right, computed from scroll position). A single ochre-gold accent (`#8A6A2F`) and a deep oxblood (`#7A2E26`); no drop-shadows, no rounded corners, no gradients. A print stylesheet renders the same interior as clean paper pages, which is how the `pdf/` editions are produced. Evidence is **never** presented as a colored-edge web card - it lives in *scholarly asides* (a small-caps coloured label between thin rules) and in *editorial feature boxes* (a clean keyline frame with a centered small-caps header). Two recurring devices structure each chapter: **The Round Table**, in which six named voices - the Neuroscientist, the Clinician, the Analyst, the Philosopher, the Skeptic, the Existentialist - speak in turn to a single question; and **From the Consulting Room**, a Sacks-style clinical vignette set in a thin oxblood frame.
 
 Every chapter follows the same scaffold: a real public-domain frontispiece (Goya, Bruegel, Caravaggio, Vermeer, Cajal, Rossetti, Charcot, Mumler), a Merleau-Ponty- or Hamlet- or Pascal-tier epigraph, a personal hook that plants a through-line question, a long body that earns the answer, a grapple with the strongest objection, a section on lived everyday relevance, a Round Table, *Myth vs Reality*, a *Limits & Self-Criticism* tier, and a closing **Essence** double-ruled panel of keeper lines with one *"if you keep one sentence"* at the bottom. References, recommended reading, and chapter-nav follow.
 
